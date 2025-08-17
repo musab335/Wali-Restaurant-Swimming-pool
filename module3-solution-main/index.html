@@ -6,32 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap Example</title>
   <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Lora:700" rel="stylesheet">
-  <!-- Add in <head> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="icon" href="images\blue orange minimalist beach resort logo.png" type="image/png">
 
 
-  
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
+<body>
 
-<header>
 
- <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
+  <!-- Header -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="">
         <div class="navbar-header">
           <!-- Toggle button for mobile -->
         
           <!-- Logo -->
           <a href="index.html" class="pull-left visible-md visible-lg">
-          <!-- Brand Name and Certification -->
+            <img id="logo-img" src="images\blue orange minimalist beach resort logo.png" alt="Logo image">
+          </a>
+
           <div class="navbar-brand">
             <a href="index.html">
               <h1>Wali Restaurant & Swimming pool</h1>
             </a>
+            <div src="images/star-k-logo.png" alt="Kosher certification"></div>
+            <span>Kosher Certified</span>
           </div>
 
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -43,29 +47,27 @@
 
         </div>
 
-         <!-- Collapsible Navigation Menu -->
+        <!-- Collapsible Navigation Menu -->
         <div id="collapsable-nav" class="collapse navbar-collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
-           
-
-
-
             
-    <li class="visible-xs active">
+
+    <li class="visible-xs ">
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span>Home
               </a>
             </li>
            
 
-  
-<li>
-      
+           
+            
+
+              <li>
               <a href="menu-categories.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
               </a>
             </li>
-
+            <li>
             <li>
               <a href="#">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
@@ -80,18 +82,20 @@
               <a href="tel:410-602-5008">
                 <span>410-602-5008</span>
               </a>
-              <div>* Swiming pool booking</div>
+              <div>* We Deliver</div>
             </li>
           </ul>
         </div>
-      </header>
+      </div>
+    </nav>
+
 
 
 
 <!-- Phone section for small screens only -->
 <div id="phone-xs" class="visible-xs" >
   <a href="tel:410-602-5008">410-602-5008</a>
-  <div>* We Deliver</div>
+  <div>* Swiming pool booking</div>
 </div>
 
 
@@ -215,5 +219,6 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
 
 
